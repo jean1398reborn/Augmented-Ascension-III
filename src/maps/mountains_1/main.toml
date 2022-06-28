@@ -1,0 +1,108 @@
+[info]
+display_name = "Mountains 1" # ingame display name
+author = "Jean Du Plessis"
+version = "1.3.1"
+description = "A simple map featuring a simple platform"
+keywords = ["mountains","1"] # keywords to find the map in search
+icon = "icon" # utilises the asset under the name icon
+base_dimensions = [1280, 720]
+
+[background]
+bg_above = ["over1", "over2"]
+bg_main = "bg"
+bg_below = ["under1", "under2"]
+
+[universal]
+gravity_scale = 10.0
+
+[[asset.image]]
+name = "bg"
+path = "background/bg.png"
+
+[[asset.image]]
+name = "over1"
+path = "background/over1.png"
+
+[[asset.image]]
+name = "over2"
+path = "background/over2.png"
+
+[[asset.image]]
+name = "under1"
+path = "background/under1.png"
+
+[[asset.image]]
+name = "under2"
+path = "background/under2.png"
+
+[[asset.image]]
+name = "platform"
+path = "platform/platform.png"
+
+[[sprite]]
+asset = "platform"
+origin = [0.0 , -250.0, 300.0] # centre of the object where it'll spawn
+scale = [0.5, 0.5, 0.5]
+rotation = 0.0
+
+[[asset.image]]
+name="sh"
+path = "platform/t1.svg"
+
+[collider.jump_reset_colliders]
+colliders=["platform_jump_reset"]
+
+[map_element_colours]
+big_centre_text_colour = [255.0,255.0,255.0]
+
+[collider.death_colliders]
+colliders=["death_from_below"]
+
+#
+#[[sprite]]
+#asset = "sh"
+#origin = [0.0 , 0.0, 5.0] # centre of the object where it'll spawn
+#scale = [0.05, 0.05, 0.05]
+#rotation = 0.0
+
+#[[collider.convex]]
+#points = [[406.5, 41.5], [406.5, -41.5], [-406.5, -41.5], [-406.5, 41.5]]
+#indices = [[0, 1], [1, 2], [2, 3], [3, 0]]
+#origin = [0.0, -250.0, 300.0]
+#fricoeff = 0.6
+
+[[collider.round_cuboid]]
+width = 786
+height = 55
+origin = [0.0, -250.0, 300.0]
+friction = 1000000000.0
+border_radius = 0.35
+restitution = 0.0
+
+
+[[collider.round_cuboid]]
+id = "death_from_below"
+width = 169420694
+height = 5
+origin = [0.0, -2000.0, 300.0]
+friction = 1000000000.0
+border_radius = 0.5
+restitution = 0.0
+
+
+[[collider.round_cuboid]]
+id = "platform_jump_reset"
+width = 784
+height = 53
+origin = [0.0, -240.0, 300.0]
+friction = 1000000000.0
+border_radius = 0.35
+restitution = 0.0
+
+[spawn_positions]
+positions = [[-372, -100],[372, -100]]
+
+[char_element_colours]
+healthbar_max= [0, 130, 0]
+healthbar_min= [130,0,0]
+player_id_text= [255,255,255]

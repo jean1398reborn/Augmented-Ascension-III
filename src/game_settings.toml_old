@@ -1,0 +1,178 @@
+[window]
+width = 1280.0
+height = 720.0
+icon_path = 'assets/branding/icon.png'
+
+[p1_ctrls]
+up_button = 'Key2'
+down_button = 'W'
+left_button = 'Q'
+right_button = 'E'
+attack_one = 'Key4'
+attack_two = 'R'
+reset = 'Key3'
+
+[p2_ctrls]
+up_button = 'Key0'
+down_button = 'P'
+left_button = 'O'
+right_button = 'LBracket'
+attack_one = 'Equals'
+attack_two = 'RBracket'
+reset = 'Minus'
+
+[p3_ctrls]
+up_button = 'Key6'
+down_button = 'Y'
+left_button = 'T'
+right_button = 'U'
+attack_one = 'Key8'
+attack_two = 'I'
+reset = 'Key7'
+
+[p4_ctrls]
+up_button = 'S'
+down_button = 'X'
+left_button = 'Z'
+right_button = 'C'
+attack_one = 'F'
+attack_two = 'V'
+reset = 'D'
+
+[p5_ctrls]
+up_button = 'Up'
+down_button = 'Down'
+left_button = 'Left'
+right_button = 'Right'
+attack_one = 'Numpad2'
+attack_two = 'Numpad0'
+reset = 'Numpad1'
+
+[p6_ctrls]
+up_button = 'L'
+down_button = 'Stop'
+left_button = 'Comma'
+right_button = 'Slash'
+attack_one = 'Apostrophe'
+attack_two = 'RShift'
+reset = 'Semicolon'
+
+[p7_ctrls]
+up_button = 'Home'
+down_button = 'End'
+left_button = 'Delete'
+right_button = 'PageDown'
+attack_one = 'Numlock'
+attack_two = 'Numpad7'
+reset = 'PageUp'
+
+[p8_ctrls]
+up_button = 'Numpad5'
+down_button = 'Numpad2'
+left_button = 'Numpad1'
+right_button = 'Numpad3'
+attack_one = 'NumpadAdd'
+attack_two = 'NumpadEnter'
+reset = 'Numpad6'
+
+[special_settings]
+debug_mode = false
+vignette = true
+
+[font_settings]
+bold_path = 'assets/fonts/kenyan coffee bd.ttf'
+reg_path = 'assets/fonts/kenyan coffee rg.ttf'
+percentage_centre_text_size_to_window_height = 6.4
+
+[gameplay_settings]
+attack_buffer_reset_time = 3.0
+countdown_to_start_time = 3.0
+countdown_disappear = 0.5
+victory_disappear = 1.0
+rounds_to_map_change = 3
+
+[main_menu]
+main_sprite = 'assets/branding/logo2.png'
+main_sprite_window_vertical = 0.25
+main_sprite_size = [
+    0.35,
+    0.35,
+]
+select_option_font_colour = [
+    255.0,
+    255.0,
+    255.0,
+]
+select_option_font_size = 0.07
+select_option_window_down = -0.21
+select_option_individual_distance = -0.06
+highlight_colour = [
+    255.0,
+    173.0,
+    0.0,
+]
+highlight_height = 0.06
+
+[player_id]
+help_text_vertical = 0.3
+help_text_size = 0.08
+help_text_colour = [
+    255.0,
+    255.0,
+    255.0,
+]
+player_joined_font_colour = [
+    255.0,
+    255.0,
+    255.0,
+]
+player_joined_font_size = 0.09
+player_joined_window_down = 0.2
+player_joined_individual_distance = -0.08
+highlight_colour = [
+    1.0,
+    1.0,
+    1.0,
+]
+highlight_height = 0.08
+start_key = 'Space'
+
+[select_char]
+current_player_text_size = 0.09
+current_player_text_colour = [
+    255.0,
+    255.0,
+    255.0,
+]
+current_player_text_up_dist = 0.3
+current_player_text_highlight_height = 0.08
+current_player_text_highlight_colour = [
+    1.0,
+    1.0,
+    1.0,
+]
+character_icon_size = [
+    0.2,
+    0.2,
+]
+icon_vertical_dist = -0.0
+char_desc_text_size = 0.08
+char_desc_text_colour = [
+    255.0,
+    255.0,
+    255.0,
+]
+char_desc_text_dist = 0.08
+current_selected_char_text_size = 0.09
+current_selected_char_colour = [
+    255.0,
+    255.0,
+    255.0,
+]
+current_selected_char_up_dist = -0.2
+current_selected_char_highlight_height = 0.08
+current_selected_char_highlight_colour = [
+    1.0,
+    1.0,
+    1.0,
+]
