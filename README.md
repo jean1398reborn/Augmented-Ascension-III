@@ -1,2 +1,2 @@
-# augmented-directory
-A Directory of Augmented Ascension III Maps &amp; Characters
+# Augmented Ascension III
+My final year of high school major project game created in the bevy engine in rust.
